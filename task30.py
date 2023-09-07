@@ -12,7 +12,7 @@
 a1 = int(input("Введите первый элемент прогрессии: "))
 d = int(input("Введите разность: "))
 n = int(input("Введите кол-во элементов: "))
-res = [a1, ]
+res = [a1]
 for i in range(1, n):
     el = a1 + i * d
     res.append(el)
